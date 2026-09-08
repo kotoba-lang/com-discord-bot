@@ -1,6 +1,6 @@
 (ns discord.client-test
   (:require [clojure.test :refer [deftest is]]
-            [clojure.string :as str]
+            [kotoba.lang.text :as str]
             [discord.client :as d]))
 
 (defn- fake-io [responses]
